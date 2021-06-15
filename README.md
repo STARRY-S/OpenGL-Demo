@@ -2,32 +2,30 @@
 
 ![](res/preview.png)
 
-> 计算机图形血实验
+(Core-profile) OpenGL Camera + Light demo written in C based on GLFW, GLAD and stb_image.
 
-(Core-profile) OpenGL 摄像机+光照演示模型。
-
-因为赶时间，座标系建得略乱，可以自己修改一下。
+[简体中文](README_CN.md)
 
 ## Usage
 
-首先安装GLAD和GLFW以及CMake，下载`stb_image.h`到`src`文件夹中(参考(Learn OpenGL)[https://learnopengl.com/]上面的教程)。
+Install GLAD, GLFW and CMake utils refers to [Learn OpenGL](https://learnopengl.com/).
 
-For Linux/Unix用户：
+Download `stb_image.h` and `glad.c` into `src` and move `glad.h` into your build library.
+
+For Linux/Unix：
 
 ```
 $ mkdir build && cd build
 $ cmake .. && make
-$ ./main -h
+$ ./main -h     # show usage information (-f for fullscreen, no args for window mode)
 ```
-
-For Windows用户：
-
-请自己翻教程给你的M$VC安装环境。
+---
 
 ## License
 
-材质使用的是[Faithful x32](https://www.curseforge.com/minecraft/texture-packs/faithful-team)的MineCraft材质， 请勿用于商业用途
+Texture:
+[Faithful x32](https://www.curseforge.com/minecraft/texture-packs/faithful-team),
 
-部分资料参考自：[Learn OpenGL](https://learnopengl.com/)
+Refer: [Learn OpenGL](https://learnopengl.com/)
 
 > License: Apache-2.0
