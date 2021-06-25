@@ -10,7 +10,7 @@
 
 ## Usage
 
-首先安装GLAD和GLFW以及CMake，下载`stb_image.h`到`src`文件夹中(参考(Learn OpenGL)[https://learnopengl.com/]上面的教程)。
+首先安装GLAD和GLFW以及CMake，下载`stb_image.h`到`src`文件夹中（参考(Learn OpenGL)[https://learnopengl.com/]上面的教程）。
 
 For Linux/Unix用户：
 
